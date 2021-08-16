@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct newConversationView: View {
+struct NewConversationView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct newConversationView_Previews: PreviewProvider {
+struct NewConversationView_Previews: PreviewProvider {
     static var previews: some View {
-        newConversationView()
+        NewConversationView()
     }
 }

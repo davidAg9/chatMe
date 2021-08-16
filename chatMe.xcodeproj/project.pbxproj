@@ -8,18 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		972C236926CA4F2300C47511 /* chatMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972C236826CA4F2300C47511 /* chatMeApp.swift */; };
-		972C236B26CA4F2300C47511 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972C236A26CA4F2300C47511 /* ContentView.swift */; };
+		972C236B26CA4F2300C47511 /* ConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972C236A26CA4F2300C47511 /* ConversationView.swift */; };
 		972C236D26CA4F2700C47511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 972C236C26CA4F2700C47511 /* Assets.xcassets */; };
 		972C237026CA4F2700C47511 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 972C236F26CA4F2700C47511 /* Preview Assets.xcassets */; };
+		972C237C26CA51D500C47511 /* PhotoViewerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972C237B26CA51D500C47511 /* PhotoViewerView.swift */; };
+		972C237E26CA51E200C47511 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972C237D26CA51E200C47511 /* RegisterView.swift */; };
+		972C238026CA51EC00C47511 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972C237F26CA51EC00C47511 /* LoginView.swift */; };
+		972C238226CA529D00C47511 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972C238126CA529D00C47511 /* ProfileView.swift */; };
+		972C238426CA52BD00C47511 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972C238326CA52BD00C47511 /* VideoPlayerView.swift */; };
+		972C238626CA52CC00C47511 /* NewConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972C238526CA52CC00C47511 /* NewConversationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		972C236526CA4F2300C47511 /* chatMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		972C236826CA4F2300C47511 /* chatMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatMeApp.swift; sourceTree = "<group>"; };
-		972C236A26CA4F2300C47511 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		972C236A26CA4F2300C47511 /* ConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationView.swift; sourceTree = "<group>"; };
 		972C236C26CA4F2700C47511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		972C236F26CA4F2700C47511 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		972C237126CA4F2700C47511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		972C237B26CA51D500C47511 /* PhotoViewerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerView.swift; sourceTree = "<group>"; };
+		972C237D26CA51E200C47511 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		972C237F26CA51EC00C47511 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		972C238126CA529D00C47511 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		972C238326CA52BD00C47511 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		972C238526CA52CC00C47511 /* NewConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +64,9 @@
 		972C236726CA4F2300C47511 /* chatMe */ = {
 			isa = PBXGroup;
 			children = (
-				972C236826CA4F2300C47511 /* chatMeApp.swift */,
-				972C236A26CA4F2300C47511 /* ContentView.swift */,
+				972C237A26CA513C00C47511 /* models */,
+				972C237926CA512800C47511 /* ViewModels */,
+				972C237726CA501200C47511 /* views  */,
 				972C236C26CA4F2700C47511 /* Assets.xcassets */,
 				972C237126CA4F2700C47511 /* Info.plist */,
 				972C236E26CA4F2700C47511 /* Preview Content */,
@@ -67,6 +80,35 @@
 				972C236F26CA4F2700C47511 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		972C237726CA501200C47511 /* views  */ = {
+			isa = PBXGroup;
+			children = (
+				972C236826CA4F2300C47511 /* chatMeApp.swift */,
+				972C236A26CA4F2300C47511 /* ConversationView.swift */,
+				972C237B26CA51D500C47511 /* PhotoViewerView.swift */,
+				972C237D26CA51E200C47511 /* RegisterView.swift */,
+				972C237F26CA51EC00C47511 /* LoginView.swift */,
+				972C238126CA529D00C47511 /* ProfileView.swift */,
+				972C238326CA52BD00C47511 /* VideoPlayerView.swift */,
+				972C238526CA52CC00C47511 /* NewConversationView.swift */,
+			);
+			path = "views ";
+			sourceTree = "<group>";
+		};
+		972C237926CA512800C47511 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		972C237A26CA513C00C47511 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +180,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				972C236B26CA4F2300C47511 /* ContentView.swift in Sources */,
+				972C236B26CA4F2300C47511 /* ConversationView.swift in Sources */,
+				972C237E26CA51E200C47511 /* RegisterView.swift in Sources */,
+				972C237C26CA51D500C47511 /* PhotoViewerView.swift in Sources */,
+				972C238026CA51EC00C47511 /* LoginView.swift in Sources */,
+				972C238626CA52CC00C47511 /* NewConversationView.swift in Sources */,
+				972C238226CA529D00C47511 /* ProfileView.swift in Sources */,
 				972C236926CA4F2300C47511 /* chatMeApp.swift in Sources */,
+				972C238426CA52BD00C47511 /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +320,7 @@
 				DEVELOPMENT_TEAM = R3K2497LK5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = chatMe/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +342,7 @@
 				DEVELOPMENT_TEAM = R3K2497LK5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = chatMe/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
